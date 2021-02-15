@@ -204,7 +204,6 @@ function OrderScreen({match, history}) {
 											onSuccess={successPaymentHandler}
 										/>
 										)}
-								<iframe src={"https://yoomoney.ru/quickpay/button-widget?targets=%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B0&default-sum="+order.totalPrice+"&button-text=12&any-card-payment-type=on&button-size=l&button-color=black&successURL="+successPaymentHandler+"&quickpay=small&account=4100116477717018&"} width="227" height="48" frameBorder="0" allowtransparency="true" scrolling="no"></iframe>
 								</ListGroup.Item>
 								)}
 						</ListGroup>
